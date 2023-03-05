@@ -45,6 +45,12 @@ const signUpConfig = {
 
 const enterfaceTheme = {
   ...AmplifyTheme,
+  // container: {
+  //   ...AmplifyTheme.container,
+  //   backgroundColor: 'slateblue',
+  //   borderRadius: 25,
+  //   marginTop: 25
+  // },
   button: {
     ...AmplifyTheme.button,
     backgroundColor: 'teal',
@@ -53,20 +59,20 @@ const enterfaceTheme = {
   },
   buttonDisabled: {
     ...AmplifyTheme.buttonDisabled,
-    backgroundColor: 'tomato',
+    backgroundColor: 'teal',
     borderRadius: 25
   },
   buttonText: {
     ...AmplifyTheme.buttonText,
-    color: 'teal',
+    color: 'aquamarine',
   },
   sectionFooterLink: {
     ...AmplifyTheme.sectionFooterLink,
-    color: 'teal',
+    color: 'hotpink',
   },
   sectionFooterLinkDisabled: {
     ...AmplifyTheme.sectionFooterLinkDisabled,
-    color: 'tomato'
+    color: 'hotpink'
   },
   input: {
     ...AmplifyTheme.input,
